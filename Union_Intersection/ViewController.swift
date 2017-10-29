@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     var Consonants = Array<Any>(repeating: 0, count: 26)
     var Universal = Array<Any>(repeating: 0, count: 26)
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib
@@ -47,11 +46,9 @@ class ViewController: UIViewController {
         print("Union of these two sets")
         union2Set(array1: Vowels,array2: Consonants,width: 8)
         
-        
         print()
         print("Intersection of these two sets")
         interSection2Set(array1: Vowels,array2: Consonants,width: 8)
-        
     }
     
     override func didReceiveMemoryWarning() {
